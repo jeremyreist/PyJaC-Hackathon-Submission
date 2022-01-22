@@ -1,0 +1,67 @@
+{
+  "name": "StockAnalysis",
+  "description": "Collects stock information from many sites to give an overview.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ImageAction.Cropp.Activities": "[1.0.7354.28052]",
+    "UiPath.DataService.Activities": "[21.10.0]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "Tenant",
+      "namespace": "StockAnalysis",
+      "uniqueReference": "xcJWCE4B4QjXElXKM4bh01WYaFBaqOp+YoIIiTFnSlw="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.21",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "3982bb6d-b9d0-4549-804d-0416d63b4c6f",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
